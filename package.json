@@ -1,0 +1,49 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "a server project using the node, graphql & postgres stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiskremMuhammad/psql-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "postgres",
+    "sql",
+    "graphql",
+    "typescript",
+    "javascript",
+    "express",
+    "apollo-server"
+  ],
+  "author": "Biskrem Muhammad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BiskremMuhammad/psql-node/issues"
+  },
+  "homepage": "https://github.com/BiskremMuhammad/psql-node#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.22.2",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.13.1",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "node": "^15.12.0",
+    "pg": "^8.5.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.32"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.11",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^14.14.37",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  }
+}
