@@ -4,7 +4,7 @@
   "port": 5432,
   "username": "postgres",
   "password": "",
-  "database": "psql-node",
+  "database": "psql_node",
   "synchronize": true,
   "logging": false,
   "entities": [
